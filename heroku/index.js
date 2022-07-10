@@ -10,7 +10,8 @@ var bodyParser = require('body-parser');
 var express = require('express');
 var app = express();
 var xhub = require('express-x-hub');
-
+var APP_SECRET = 1b8b0321a01049dec4bba64a6de102b9
+var TOKEN = test-1
 app.set('port', (process.env.PORT || 5000));
 app.listen(app.get('port'));
 
